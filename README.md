@@ -1,6 +1,7 @@
 # MagicMirror MCP Server
 
-A **Model Context Protocol (MCP) server** that lets AI agents control a [MagicMirror²](https://magicmirror.builders/) installation and optionally integrate with [Home Assistant](https://www.home-assistant.io/).
+A **Model Context Protocol (MCP) server** that lets AI agents control a [MagicMirror²](https://magicmirror.builders/) installation and optionally integrate with [Home Assistant](https://www.home-assistant.io/). AI Agent Integration
+This server is designed from the ground up for AI agent control. By exposing MagicMirror and Home Assistant capabilities as structured MCP tools, any compatible AI agent — including Claude — can discover, reason about, and act on your smart display and home devices through natural language. The system.schema tool lets an agent automatically understand what modules and entities are available without any manual configuration. The plugin architecture means new capabilities can be added as isolated plugins without touching core server code, making it straightforward to extend the server for custom modules, third-party services, or entirely new integrations. Whether you want the mirror to react to a Home Assistant automation, display a reminder on demand, or respond to voice commands through an AI assistant, this server provides the connective layer to make it work.
 
 Built with the official [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) and designed to run alongside MagicMirror using [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-Control).
 
