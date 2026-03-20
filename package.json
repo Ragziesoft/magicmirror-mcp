@@ -1,0 +1,32 @@
+{
+  "name": "magicmirror-mcp",
+  "version": "2.0.0",
+  "description": "MCP server for controlling MagicMirror² and Home Assistant via AI agents",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [
+    "mcp",
+    "magicmirror",
+    "home-assistant",
+    "ai",
+    "claude"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ragziesoft/magicmirror-mcp.git"
+  }
+}
