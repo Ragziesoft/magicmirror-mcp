@@ -204,4 +204,4 @@ Then add it to `src/pluginLoader.ts`.
 
 ## License
 
-MIT
+MIT @ Ragzie
